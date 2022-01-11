@@ -267,12 +267,19 @@ body{
 }
 @media screen and (min-width: 768px) {
     .grid{
-        grid-template-columns:1fr 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr; 
+    }
+    .wrapper {
+        padding: 35px 50px;
     }
 }
 @media screen and (min-width: 1024px) {
     .grid{
         grid-template-columns:1fr 1fr 1fr 1fr;
+        
+    }
+    .wrapper{
+        padding: 35px 100px;
     }
 }
 /*final de screen media*/  
