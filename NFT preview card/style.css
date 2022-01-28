@@ -1,0 +1,116 @@
+#root{
+    /*primario*/
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    /*neutrales*/
+    --very-dark-blue: hsl(217, 54%, 11%);
+    --very-dark-blue: hsl(216, 50%, 16%);
+    --very-dark-blue : hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    
+}
+*{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background:hsl(217, 54%, 11%);
+    text-align: center;
+    padding: 10px 0;
+}
+.card {
+    border-radius:4%;
+    height: 100%;
+    width: 300px;
+    overflow: hidden;
+    display: grid;
+    margin: 60px auto;
+    background: hsl(216, 50%, 16%);
+    padding: -24px;
+    
+}
+.card-img {
+    width: 255px;
+    height: 255px;
+    margin: 24px auto 10px auto;
+}
+h1{
+    position: relative;
+    padding: 0 75px 0 0;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    display: flex;
+    text-align: left;
+    padding: 0 21px;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin: 0 0 10px 0;
+}
+.block {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 0 15px 0;
+    padding:5px 10px;
+    font-size: 20px;
+
+}
+.block-element{
+    margin-right: 35px;
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.block-element-today{
+    margin-left: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: hsl(215, 32%, 27%);
+    
+}
+.clock-img{
+    position: relative;
+    top: 4px;
+    left: 3px;
+    
+}
+.diamant {
+    position: relative;
+    top: 5px;
+}
+.creation {
+    display: flex;
+    height:5vh;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+.creation img{
+    border: hsl(0, 0%, 100%) 0.7px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    
+     
+}
+.creation-text{
+    
+    flex: 1;
+    text-align: left;
+    margin: -15px 0;
+    padding: 20px 0 5px 20px;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: hsl(215, 32%, 27%);
+    
+}
+.text-muted {
+    
+    color:white;
+    font-size: 16px;
+}
+
+
